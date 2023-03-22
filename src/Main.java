@@ -21,11 +21,11 @@ public class Main {
 
                 //System.out.println(br.readLine());
                 String result = br.readLine();
-                System.out.println("hej " + result);
+                //System.out.println(result);
 
                 String[] arrOfStr = result.split(",");
 
-                for(String a : arrOfStr) {
+               for(String a : arrOfStr) {
                     System.out.println(a);
                 }
 
